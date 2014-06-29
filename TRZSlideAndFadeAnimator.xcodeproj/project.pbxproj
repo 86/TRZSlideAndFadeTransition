@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282A566C1960446E00FAD7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566B1960446E00FAD7F5 /* Foundation.framework */; };
+		282A566E1960446E00FAD7F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566D1960446E00FAD7F5 /* CoreGraphics.framework */; };
+		282A56701960446E00FAD7F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566F1960446E00FAD7F5 /* UIKit.framework */; };
+		282A56761960446E00FAD7F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282A56741960446E00FAD7F5 /* InfoPlist.strings */; };
+		282A56781960446E00FAD7F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56771960446E00FAD7F5 /* main.m */; };
+		282A567C1960446E00FAD7F5 /* TRzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A567B1960446E00FAD7F5 /* TRzAppDelegate.m */; };
+		282A567F1960446E00FAD7F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282A567D1960446E00FAD7F5 /* Main.storyboard */; };
+		282A56821960446E00FAD7F5 /* TRzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56811960446E00FAD7F5 /* TRzViewController.m */; };
+		282A56841960446E00FAD7F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282A56831960446E00FAD7F5 /* Images.xcassets */; };
+		282A568B1960446E00FAD7F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A568A1960446E00FAD7F5 /* XCTest.framework */; };
+		282A568C1960446E00FAD7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566B1960446E00FAD7F5 /* Foundation.framework */; };
+		282A568D1960446E00FAD7F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566F1960446E00FAD7F5 /* UIKit.framework */; };
+		282A56951960446E00FAD7F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282A56931960446E00FAD7F5 /* InfoPlist.strings */; };
+		282A56971960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282A568E1960446E00FAD7F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282A56601960446E00FAD7F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282A56671960446E00FAD7F5;
+			remoteInfo = TRZSlideAndFadeAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282A56681960446E00FAD7F5 /* TRZSlideAndFadeAnimator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZSlideAndFadeAnimator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282A566B1960446E00FAD7F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		282A566D1960446E00FAD7F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		282A566F1960446E00FAD7F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282A56731960446E00FAD7F5 /* TRZSlideAndFadeAnimator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRZSlideAndFadeAnimator-Info.plist"; sourceTree = "<group>"; };
+		282A56751960446E00FAD7F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282A56771960446E00FAD7F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282A56791960446E00FAD7F5 /* TRZSlideAndFadeAnimator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRZSlideAndFadeAnimator-Prefix.pch"; sourceTree = "<group>"; };
+		282A567A1960446E00FAD7F5 /* TRzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRzAppDelegate.h; sourceTree = "<group>"; };
+		282A567B1960446E00FAD7F5 /* TRzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRzAppDelegate.m; sourceTree = "<group>"; };
+		282A567E1960446E00FAD7F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282A56801960446E00FAD7F5 /* TRzViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRzViewController.h; sourceTree = "<group>"; };
+		282A56811960446E00FAD7F5 /* TRzViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRzViewController.m; sourceTree = "<group>"; };
+		282A56831960446E00FAD7F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		282A56891960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZSlideAndFadeAnimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282A568A1960446E00FAD7F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		282A56921960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRZSlideAndFadeAnimatorTests-Info.plist"; sourceTree = "<group>"; };
+		282A56941960446E00FAD7F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZSlideAndFadeAnimatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282A56651960446E00FAD7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A566E1960446E00FAD7F5 /* CoreGraphics.framework in Frameworks */,
+				282A56701960446E00FAD7F5 /* UIKit.framework in Frameworks */,
+				282A566C1960446E00FAD7F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A56861960446E00FAD7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A568B1960446E00FAD7F5 /* XCTest.framework in Frameworks */,
+				282A568D1960446E00FAD7F5 /* UIKit.framework in Frameworks */,
+				282A568C1960446E00FAD7F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282A565F1960446E00FAD7F5 = {
+			isa = PBXGroup;
+			children = (
+				282A56711960446E00FAD7F5 /* TRZSlideAndFadeAnimator */,
+				282A56901960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests */,
+				282A566A1960446E00FAD7F5 /* Frameworks */,
+				282A56691960446E00FAD7F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282A56691960446E00FAD7F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282A56681960446E00FAD7F5 /* TRZSlideAndFadeAnimator.app */,
+				282A56891960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282A566A1960446E00FAD7F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282A566B1960446E00FAD7F5 /* Foundation.framework */,
+				282A566D1960446E00FAD7F5 /* CoreGraphics.framework */,
+				282A566F1960446E00FAD7F5 /* UIKit.framework */,
+				282A568A1960446E00FAD7F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		282A56711960446E00FAD7F5 /* TRZSlideAndFadeAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				282A567A1960446E00FAD7F5 /* TRzAppDelegate.h */,
+				282A567B1960446E00FAD7F5 /* TRzAppDelegate.m */,
+				282A567D1960446E00FAD7F5 /* Main.storyboard */,
+				282A56801960446E00FAD7F5 /* TRzViewController.h */,
+				282A56811960446E00FAD7F5 /* TRzViewController.m */,
+				282A56831960446E00FAD7F5 /* Images.xcassets */,
+				282A56721960446E00FAD7F5 /* Supporting Files */,
+			);
+			path = TRZSlideAndFadeAnimator;
+			sourceTree = "<group>";
+		};
+		282A56721960446E00FAD7F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282A56731960446E00FAD7F5 /* TRZSlideAndFadeAnimator-Info.plist */,
+				282A56741960446E00FAD7F5 /* InfoPlist.strings */,
+				282A56771960446E00FAD7F5 /* main.m */,
+				282A56791960446E00FAD7F5 /* TRZSlideAndFadeAnimator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282A56901960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */,
+				282A56911960446E00FAD7F5 /* Supporting Files */,
+			);
+			path = TRZSlideAndFadeAnimatorTests;
+			sourceTree = "<group>";
+		};
+		282A56911960446E00FAD7F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282A56921960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests-Info.plist */,
+				282A56931960446E00FAD7F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282A56671960446E00FAD7F5 /* TRZSlideAndFadeAnimator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282A569A1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeAnimator" */;
+			buildPhases = (
+				282A56641960446E00FAD7F5 /* Sources */,
+				282A56651960446E00FAD7F5 /* Frameworks */,
+				282A56661960446E00FAD7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZSlideAndFadeAnimator;
+			productName = TRZSlideAndFadeAnimator;
+			productReference = 282A56681960446E00FAD7F5 /* TRZSlideAndFadeAnimator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282A56881960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282A569D1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeAnimatorTests" */;
+			buildPhases = (
+				282A56851960446E00FAD7F5 /* Sources */,
+				282A56861960446E00FAD7F5 /* Frameworks */,
+				282A56871960446E00FAD7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282A568F1960446E00FAD7F5 /* PBXTargetDependency */,
+			);
+			name = TRZSlideAndFadeAnimatorTests;
+			productName = TRZSlideAndFadeAnimatorTests;
+			productReference = 282A56891960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282A56601960446E00FAD7F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TRz;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 86;
+				TargetAttributes = {
+					282A56881960446E00FAD7F5 = {
+						TestTargetID = 282A56671960446E00FAD7F5;
+					};
+				};
+			};
+			buildConfigurationList = 282A56631960446E00FAD7F5 /* Build configuration list for PBXProject "TRZSlideAndFadeAnimator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282A565F1960446E00FAD7F5;
+			productRefGroup = 282A56691960446E00FAD7F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282A56671960446E00FAD7F5 /* TRZSlideAndFadeAnimator */,
+				282A56881960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282A56661960446E00FAD7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56841960446E00FAD7F5 /* Images.xcassets in Resources */,
+				282A56761960446E00FAD7F5 /* InfoPlist.strings in Resources */,
+				282A567F1960446E00FAD7F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A56871960446E00FAD7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56951960446E00FAD7F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282A56641960446E00FAD7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56781960446E00FAD7F5 /* main.m in Sources */,
+				282A567C1960446E00FAD7F5 /* TRzAppDelegate.m in Sources */,
+				282A56821960446E00FAD7F5 /* TRzViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A56851960446E00FAD7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56971960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282A568F1960446E00FAD7F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282A56671960446E00FAD7F5 /* TRZSlideAndFadeAnimator */;
+			targetProxy = 282A568E1960446E00FAD7F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282A56741960446E00FAD7F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A56751960446E00FAD7F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		282A567D1960446E00FAD7F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A567E1960446E00FAD7F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282A56931960446E00FAD7F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A56941960446E00FAD7F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282A56981960446E00FAD7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		282A56991960446E00FAD7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282A569B1960446E00FAD7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch";
+				INFOPLIST_FILE = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		282A569C1960446E00FAD7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch";
+				INFOPLIST_FILE = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		282A569E1960446E00FAD7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRZSlideAndFadeAnimator.app/TRZSlideAndFadeAnimator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TRZSlideAndFadeAnimatorTests/TRZSlideAndFadeAnimatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		282A569F1960446E00FAD7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRZSlideAndFadeAnimator.app/TRZSlideAndFadeAnimator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch";
+				INFOPLIST_FILE = "TRZSlideAndFadeAnimatorTests/TRZSlideAndFadeAnimatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282A56631960446E00FAD7F5 /* Build configuration list for PBXProject "TRZSlideAndFadeAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A56981960446E00FAD7F5 /* Debug */,
+				282A56991960446E00FAD7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282A569A1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeAnimator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A569B1960446E00FAD7F5 /* Debug */,
+				282A569C1960446E00FAD7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		282A569D1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeAnimatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A569E1960446E00FAD7F5 /* Debug */,
+				282A569F1960446E00FAD7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282A56601960446E00FAD7F5 /* Project object */;
+}
