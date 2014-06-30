@@ -21,6 +21,9 @@
 		282A568D1960446E00FAD7F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566F1960446E00FAD7F5 /* UIKit.framework */; };
 		282A56951960446E00FAD7F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282A56931960446E00FAD7F5 /* InfoPlist.strings */; };
 		282A56971960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */; };
+		282A56A2196045D000FAD7F5 /* TRzModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56A1196045D000FAD7F5 /* TRzModalViewController.m */; };
+		282A56A51960463400FAD7F5 /* TRzSlideAndFadeInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56A41960463400FAD7F5 /* TRzSlideAndFadeInteractiveTransition.m */; };
+		286BEE9A1961C63900227DA1 /* TRzSlideAndFadeAnimatedTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BEE991961C63900227DA1 /* TRzSlideAndFadeAnimatedTransiton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		282A56921960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRZSlideAndFadeAnimatorTests-Info.plist"; sourceTree = "<group>"; };
 		282A56941960446E00FAD7F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZSlideAndFadeAnimatorTests.m; sourceTree = "<group>"; };
+		282A56A0196045D000FAD7F5 /* TRzModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRzModalViewController.h; sourceTree = "<group>"; };
+		282A56A1196045D000FAD7F5 /* TRzModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRzModalViewController.m; sourceTree = "<group>"; };
+		282A56A31960463400FAD7F5 /* TRzSlideAndFadeInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRzSlideAndFadeInteractiveTransition.h; sourceTree = "<group>"; };
+		282A56A41960463400FAD7F5 /* TRzSlideAndFadeInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRzSlideAndFadeInteractiveTransition.m; sourceTree = "<group>"; };
+		286BEE981961C63900227DA1 /* TRzSlideAndFadeAnimatedTransiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRzSlideAndFadeAnimatedTransiton.h; sourceTree = "<group>"; };
+		286BEE991961C63900227DA1 /* TRzSlideAndFadeAnimatedTransiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRzSlideAndFadeAnimatedTransiton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,12 @@
 				282A567D1960446E00FAD7F5 /* Main.storyboard */,
 				282A56801960446E00FAD7F5 /* TRzViewController.h */,
 				282A56811960446E00FAD7F5 /* TRzViewController.m */,
+				282A56A0196045D000FAD7F5 /* TRzModalViewController.h */,
+				282A56A1196045D000FAD7F5 /* TRzModalViewController.m */,
+				286BEE981961C63900227DA1 /* TRzSlideAndFadeAnimatedTransiton.h */,
+				286BEE991961C63900227DA1 /* TRzSlideAndFadeAnimatedTransiton.m */,
+				282A56A31960463400FAD7F5 /* TRzSlideAndFadeInteractiveTransition.h */,
+				282A56A41960463400FAD7F5 /* TRzSlideAndFadeInteractiveTransition.m */,
 				282A56831960446E00FAD7F5 /* Images.xcassets */,
 				282A56721960446E00FAD7F5 /* Supporting Files */,
 			);
@@ -253,6 +268,9 @@
 				282A56781960446E00FAD7F5 /* main.m in Sources */,
 				282A567C1960446E00FAD7F5 /* TRzAppDelegate.m in Sources */,
 				282A56821960446E00FAD7F5 /* TRzViewController.m in Sources */,
+				282A56A2196045D000FAD7F5 /* TRzModalViewController.m in Sources */,
+				286BEE9A1961C63900227DA1 /* TRzSlideAndFadeAnimatedTransiton.m in Sources */,
+				282A56A51960463400FAD7F5 /* TRzSlideAndFadeInteractiveTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +475,7 @@
 				282A569C1960446E00FAD7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		282A569D1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeAnimatorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +484,7 @@
 				282A569F1960446E00FAD7F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
