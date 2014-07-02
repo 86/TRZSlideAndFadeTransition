@@ -11,27 +11,42 @@
 @implementation TRzSlideAndFadeAnimatedTransiton
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
-    return 1.0;
+    return 0.4;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext {
+    NSLog(@"animateTranstion");
     UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
-    UIView *contrainerView = [transitionContext containerView];
+    UIView *fromView = fromVC.view;
+    UIView *toView = toVC.view;
     
-    CGRect fromFrame = [transitionContext initialFrameForViewController:fromVC];
-    CGRect toFrame = CGRectOffset(fromFrame, CGRectGetWidth(fromFrame), 0);
+    UIView *containerView = [transitionContext containerView];
     
-    if (self.reverse) {
-        [contrainerView insertSubview:toVC.view belowSubview:fromVC.view];
-        toVC.view.frame = fromFrame;
+    CGRect bgnFrame = [transitionContext initialFrameForViewController:fromVC];
+    NSLog(@"bgnFrame:%@",NSStringFromCGRect(bgnFrame));
+    CGRect endFrame;
+    CGFloat angle = 4.0 * M_PI / 180.0;
+    NSLog(@"opposite:%d",self.opposite);
+    if (self.opposite) {
+        NSLog(@"moveForOpposite");
+        endFrame = CGRectOffset(bgnFrame, -CGRectGetWidth(bgnFrame), 4);
+        NSLog(@"endFrame:%@",NSStringFromCGRect(endFrame));
+        angle = -angle;
+    } else {
+        endFrame = CGRectOffset(bgnFrame, CGRectGetWidth(bgnFrame), 4);
+        NSLog(@"endFrame:%@",NSStringFromCGRect(endFrame));
+    }
+    if (self.dismiss) {
+        [containerView insertSubview:toView belowSubview:fromView];
+        toView.frame = bgnFrame;
         [UIView animateWithDuration:[self transitionDuration:transitionContext]
                               delay:0.0
-             usingSpringWithDamping:0.4
-              initialSpringVelocity:1.0
-                            options:UIViewAnimationOptionCurveEaseInOut
+                            options:UIViewAnimationOptionCurveLinear
                          animations:^{
-                             fromVC.view.frame = toFrame;
+                             fromView.frame = endFrame;
+                             fromView.alpha = 0.2;
+                             fromView.transform = CGAffineTransformMakeRotation(angle);
                          }
          completion:^(BOOL finished){
              BOOL completed = ![transitionContext transitionWasCancelled];

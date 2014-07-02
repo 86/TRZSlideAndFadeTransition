@@ -10,6 +10,7 @@
 
 @interface TRzSlideAndFadeAnimatedTransiton : NSObject <UIViewControllerAnimatedTransitioning>
 
-@property (nonatomic) BOOL reverse;
+@property (nonatomic) BOOL dismiss;
+@property (nonatomic) BOOL opposite;
 
 @end

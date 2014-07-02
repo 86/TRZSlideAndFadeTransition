@@ -1,6 +1,6 @@
 //
 //  TRzSlideAndFadeInteractiveTransition.m
-//  TRzSlideAndFadeInteractiveTransition
+//  TRZSlideAndFadeAnimator
 //
 //  Created by yam on 2014/06/29.
 //  Copyright (c) 2014年 86. All rights reserved.
@@ -8,8 +8,11 @@
 
 #import "TRzSlideAndFadeInteractiveTransition.h"
 
+
 @implementation TRzSlideAndFadeInteractiveTransition
 
+    CGPoint stPoint;
+    bool opposite;
 
 - (void)setView:(UIView *)view
 {
@@ -20,31 +23,60 @@
 
 
 - (void)handlePan:(UIPanGestureRecognizer *)recognizer {
-    NSLog(@"handlePan");
     switch (recognizer.state) {
-        case UIGestureRecognizerStateBegan: {
-            NSLog(@"UIGestureRecognizerStateBegan:");
-            self.interactive = YES;
-            CGPoint point = [recognizer locationInView:self.view];
-            [self.delegate interactiveTransition:self interactionBeganAtPoint:point];
+        case UIGestureRecognizerStateBegan:
+        {
+            NSLog(@"UIGestureRecognizerStateBegan");
+//            self.interactive = YES;
+//            CGPoint point = [recognizer locationInView:self.view];
+            opposite = NO;
+            stPoint = [recognizer locationInView:self.view];
+            NSLog(@"stPoint:%f, %f",stPoint.x, stPoint.y);
+//            [self.delegate interactiveTransition:self interactionBeganAtPoint:point];
             break;
         }
-        case UIGestureRecognizerStateChanged: {
-            NSLog(@"UIGestureRecognizerStateChanged:");
-            CGRect viewRect = self.view.bounds;
+        case UIGestureRecognizerStateChanged:
+        {
+//            NSLog(@"UIGestureRecognizerStateChanged");
             CGPoint translation = [recognizer translationInView:self.view];
-            CGFloat percent = translation.x / CGRectGetWidth(viewRect);
-            [self updateInteractiveTransition:percent];
+//            NSLog(@"tlPoint:%f, %f",translation.x, translation.y);
+            if (!self.interactive) {
+                if (translation.x < 0) {
+                    NSLog(@"tlPoint:%f, %f",translation.x, translation.y);
+                    NSLog(@"opposite:YES!");
+                    opposite = YES;
+                }
+                self.interactive = YES;
+                [self.delegate interactiveTransition:self interactionBeganAtPoint:stPoint opposite:opposite];
+            } else {
+                CGRect viewRect = self.view.bounds;
+                CGFloat percent = translation.x / CGRectGetWidth(viewRect);
+                NSLog(@"updateInteractiveTransition:percent:%f",percent);
+//                NSLog(@"updateInteractiveTransition:fabs(percent):%f",fabsf(percent));
+                [self updateInteractiveTransition:fabsf(percent)];
+            }
             break;
         }
         case UIGestureRecognizerStateCancelled:
-        case UIGestureRecognizerStateEnded: {
+        case UIGestureRecognizerStateEnded:
+        {
             NSLog(@"UIGestureRecognizerStateCancelled&Ended");
+            CGPoint translation = [recognizer translationInView:self.view];
+            CGRect viewRect = self.view.bounds;
+            CGFloat percent = translation.x / CGRectGetWidth(viewRect);
             CGPoint velocity = [recognizer velocityInView:self.view];
-            if (velocity.x <= 0) { // 右から左へ移動中
+            if (fabs(percent) < 0.3) {
                 [self cancelInteractiveTransition];
-            } else { // 左から右に移動中
-                [self finishInteractiveTransition];
+            } else {
+                if (velocity.x <= 0 && !opposite) {
+                    [self cancelInteractiveTransition];
+                } else if (velocity.x >= 0 && !opposite) {
+                    [self finishInteractiveTransition];
+                } else if (velocity.x <= 0 && opposite) {
+                    [self finishInteractiveTransition];
+                } else if (velocity.x >= 0 && opposite) {
+                    [self cancelInteractiveTransition];
+            }
             }
             self.interactive = NO;
             break;
