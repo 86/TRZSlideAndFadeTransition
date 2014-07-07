@@ -20,22 +20,24 @@
     UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     UIView *fromView = fromVC.view;
     UIView *toView = toVC.view;
-    
     UIView *containerView = [transitionContext containerView];
+//    NSLog(@"fromView:%@",NSStringFromCGRect(fromView.frame));
+//    NSLog(@"toView:%@",NSStringFromCGRect(toView.frame));
+//    NSLog(@"containerView:%@",NSStringFromCGRect(containerView.frame));
     
     CGRect bgnFrame = [transitionContext initialFrameForViewController:fromVC];
-    NSLog(@"bgnFrame:%@",NSStringFromCGRect(bgnFrame));
+//    NSLog(@"bgnFrame:%@",NSStringFromCGRect(bgnFrame));
     CGRect endFrame;
     CGFloat angle = 4.0 * M_PI / 180.0;
-    NSLog(@"opposite:%d",self.opposite);
+//    NSLog(@"opposite:%d",self.opposite);
     if (self.opposite) {
-        NSLog(@"moveForOpposite");
-        endFrame = CGRectOffset(bgnFrame, -CGRectGetWidth(bgnFrame), 4);
-        NSLog(@"endFrame:%@",NSStringFromCGRect(endFrame));
+//        NSLog(@"moveForOpposite");
+        endFrame = CGRectOffset(bgnFrame, -CGRectGetWidth(bgnFrame), 20);
+//        NSLog(@"endFrame:%@",NSStringFromCGRect(endFrame));
         angle = -angle;
     } else {
-        endFrame = CGRectOffset(bgnFrame, CGRectGetWidth(bgnFrame), 4);
-        NSLog(@"endFrame:%@",NSStringFromCGRect(endFrame));
+        endFrame = CGRectOffset(bgnFrame, CGRectGetWidth(bgnFrame), 20);
+//        NSLog(@"endFrame:%@",NSStringFromCGRect(endFrame));
     }
     if (self.dismiss) {
         [containerView insertSubview:toView belowSubview:fromView];
@@ -50,9 +52,15 @@
                          }
          completion:^(BOOL finished){
              BOOL completed = ![transitionContext transitionWasCancelled];
+//             NSLog(@"completeTransition:%@",NSStringFromCGRect(fromVC.view.frame));
              [transitionContext completeTransition:completed];
          }];
     }
 }
+
+- (void)animationEnded:(BOOL)transitionCompleted {
+    NSLog(@"animationEnded:%d",transitionCompleted);
+}
+
 
 @end

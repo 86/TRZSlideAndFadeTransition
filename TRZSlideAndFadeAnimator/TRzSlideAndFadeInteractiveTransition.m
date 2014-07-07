@@ -51,16 +51,15 @@
             } else {
                 CGRect viewRect = self.view.bounds;
                 CGFloat percent = translation.x / CGRectGetWidth(viewRect);
-                NSLog(@"updateInteractiveTransition:percent:%f",percent);
+//                NSLog(@"updateInteractiveTransition:percent:%f",percent);
 //                NSLog(@"updateInteractiveTransition:fabs(percent):%f",fabsf(percent));
                 [self updateInteractiveTransition:fabsf(percent)];
             }
             break;
         }
-        case UIGestureRecognizerStateCancelled:
         case UIGestureRecognizerStateEnded:
         {
-            NSLog(@"UIGestureRecognizerStateCancelled&Ended");
+            NSLog(@"UIGestureRecognizerStateEnded");
             CGPoint translation = [recognizer translationInView:self.view];
             CGRect viewRect = self.view.bounds;
             CGFloat percent = translation.x / CGRectGetWidth(viewRect);
@@ -68,19 +67,24 @@
             if (fabs(percent) < 0.3) {
                 [self cancelInteractiveTransition];
             } else {
-                if (velocity.x <= 0 && !opposite) {
-                    [self cancelInteractiveTransition];
-                } else if (velocity.x >= 0 && !opposite) {
-                    [self finishInteractiveTransition];
-                } else if (velocity.x <= 0 && opposite) {
-                    [self finishInteractiveTransition];
-                } else if (velocity.x >= 0 && opposite) {
-                    [self cancelInteractiveTransition];
-            }
+                if (!opposite) {
+                    if (velocity.x > 0) {
+                        [self finishInteractiveTransition];
+                    } else {
+                        [self cancelInteractiveTransition];
+                    }
+                } else {
+                    if (velocity.x > 0) {
+                        [self cancelInteractiveTransition];
+                    } else {
+                        [self finishInteractiveTransition];
+                    }
+                }
             }
             self.interactive = NO;
             break;
         }
+        case UIGestureRecognizerStateCancelled:
         default:
             break;
     }

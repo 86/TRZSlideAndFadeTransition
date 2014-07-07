@@ -84,7 +84,7 @@
 #pragma mark - TRzSlideAndFadeInteractiveTransitionDelegate
 
 - (void)interactiveTransition:(id<UIViewControllerInteractiveTransitioning>)transition interactionBeganAtPoint:(CGPoint)point opposite:(BOOL)opposite {
-    NSLog(@"interactiveTransition:interactionBeganAtPoint:opposite:%d",opposite);
+//    NSLog(@"interactiveTransition:interactionBeganAtPoint:opposite:%d",opposite);
     [self dismissViewControllerAnimated:YES completion:nil];
     self.animatedTransition.opposite = opposite;
 }
