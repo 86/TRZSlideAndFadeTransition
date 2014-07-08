@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "282A56671960446E00FAD7F5"
-               BuildableName = "TRZSlideAndFadeAnimator.app"
-               BlueprintName = "TRZSlideAndFadeAnimator"
-               ReferencedContainer = "container:TRZSlideAndFadeAnimator.xcodeproj">
+               BuildableName = "TRZSlideAndFadeTransition.app"
+               BlueprintName = "TRZSlideAndFadeTransition"
+               ReferencedContainer = "container:TRZSlideAndFadeTransition.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "282A56881960446E00FAD7F5"
-               BuildableName = "TRZSlideAndFadeAnimatorTests.xctest"
-               BlueprintName = "TRZSlideAndFadeAnimatorTests"
-               ReferencedContainer = "container:TRZSlideAndFadeAnimator.xcodeproj">
+               BuildableName = "TRZSlideAndFadeTransitionTests.xctest"
+               BlueprintName = "TRZSlideAndFadeTransitionTests"
+               ReferencedContainer = "container:TRZSlideAndFadeTransition.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "282A56671960446E00FAD7F5"
-            BuildableName = "TRZSlideAndFadeAnimator.app"
-            BlueprintName = "TRZSlideAndFadeAnimator"
-            ReferencedContainer = "container:TRZSlideAndFadeAnimator.xcodeproj">
+            BuildableName = "TRZSlideAndFadeTransition.app"
+            BlueprintName = "TRZSlideAndFadeTransition"
+            ReferencedContainer = "container:TRZSlideAndFadeTransition.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "282A56671960446E00FAD7F5"
-            BuildableName = "TRZSlideAndFadeAnimator.app"
-            BlueprintName = "TRZSlideAndFadeAnimator"
-            ReferencedContainer = "container:TRZSlideAndFadeAnimator.xcodeproj">
+            BuildableName = "TRZSlideAndFadeTransition.app"
+            BlueprintName = "TRZSlideAndFadeTransition"
+            ReferencedContainer = "container:TRZSlideAndFadeTransition.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "282A56671960446E00FAD7F5"
-            BuildableName = "TRZSlideAndFadeAnimator.app"
-            BlueprintName = "TRZSlideAndFadeAnimator"
-            ReferencedContainer = "container:TRZSlideAndFadeAnimator.xcodeproj">
+            BuildableName = "TRZSlideAndFadeTransition.app"
+            BlueprintName = "TRZSlideAndFadeTransition"
+            ReferencedContainer = "container:TRZSlideAndFadeTransition.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
