@@ -281,8 +281,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TRZSlideAndFadeTransitionDemo</string>
 			<key>path</key>
 			<string>TRZSlideAndFadeTransitionDemo</string>
 			<key>sourceTree</key>
@@ -299,8 +297,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
 			<key>path</key>
 			<string>Supporting Files</string>
 			<key>sourceTree</key>
@@ -634,8 +630,10 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TRZSlideAndFadeTransitionTests</string>
 			<key>path</key>
-			<string>TRZSlideAndFadeAnimatorTests</string>
+			<string>TRZSlideAndFadeTransitionTests</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -648,8 +646,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
 			<key>path</key>
 			<string>Supporting Files</string>
 			<key>sourceTree</key>
@@ -948,7 +944,7 @@
 					<string>$(inherited)</string>
 				</array>
 				<key>INFOPLIST_FILE</key>
-				<string>TRZSlideAndFadeAnimatorTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist</string>
+				<string>TRZSlideAndFadeTransitionTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>TRZSlideAndFadeTransitionTests</string>
 				<key>TEST_HOST</key>
@@ -978,7 +974,7 @@
 				<key>GCC_PREFIX_HEADER</key>
 				<string>TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>TRZSlideAndFadeAnimatorTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist</string>
+				<string>TRZSlideAndFadeTransitionTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist</string>
 				<key>PRODUCT_NAME</key>
 				<string>TRZSlideAndFadeTransitionTests</string>
 				<key>TEST_HOST</key>
@@ -1032,8 +1028,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TRzSlideAndFadeInteractiveTransition.h</string>
 			<key>path</key>
 			<string>TRzSlideAndFadeInteractiveTransition.h</string>
 			<key>sourceTree</key>
@@ -1047,8 +1041,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TRzSlideAndFadeInteractiveTransition.m</string>
 			<key>path</key>
 			<string>TRzSlideAndFadeInteractiveTransition.m</string>
 			<key>sourceTree</key>
@@ -1072,8 +1064,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>src</string>
 			<key>path</key>
 			<string>src</string>
 			<key>sourceTree</key>
@@ -1087,8 +1077,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TRzSlideAndFadeAnimatedTransiton.h</string>
 			<key>path</key>
 			<string>TRzSlideAndFadeAnimatedTransiton.h</string>
 			<key>sourceTree</key>
@@ -1102,8 +1090,6 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>TRzSlideAndFadeAnimatedTransiton.m</string>
 			<key>path</key>
 			<string>TRzSlideAndFadeAnimatedTransiton.m</string>
 			<key>sourceTree</key>
