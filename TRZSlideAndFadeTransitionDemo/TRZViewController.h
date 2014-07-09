@@ -1,5 +1,5 @@
 //
-//  TRzViewController.h
+//  TRZViewController.h
 //  TRZSlideAndFadeTransition
 //
 //  Created by yam on 2014/06/29.

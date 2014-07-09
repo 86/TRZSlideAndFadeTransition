@@ -1,5 +1,5 @@
 //
-//  TRzModalViewController.h
+//  TRZModalViewController.h
 //  TRZSlideAndFadeTransition
 //
 //  Created by yam on 2014/06/29.

@@ -1,5 +1,5 @@
 //
-//  TRzSlideAndFadeInteractiveTransition.h
+//  TRZSlideAndFadeInteractiveTransition.h
 //  TRZSlideAndFadeTransition
 //
 //  Created by yam on 2014/06/29.
