@@ -1,1109 +1,500 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>282A565F1960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>28690E19196C36F5000E19EF</string>
-				<string>282A56711960446E00FAD7F5</string>
-				<string>282A56901960446E00FAD7F5</string>
-				<string>282A566A1960446E00FAD7F5</string>
-				<string>282A56691960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56601960446E00FAD7F5</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>TRz</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>86</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>282A56881960446E00FAD7F5</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>282A56671960446E00FAD7F5</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>282A56631960446E00FAD7F5</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>282A565F1960446E00FAD7F5</string>
-			<key>productRefGroup</key>
-			<string>282A56691960446E00FAD7F5</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>282A56671960446E00FAD7F5</string>
-				<string>282A56881960446E00FAD7F5</string>
-			</array>
-		</dict>
-		<key>282A56631960446E00FAD7F5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>282A56981960446E00FAD7F5</string>
-				<string>282A56991960446E00FAD7F5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>282A56641960446E00FAD7F5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>282A56781960446E00FAD7F5</string>
-				<string>282A567C1960446E00FAD7F5</string>
-				<string>282A56821960446E00FAD7F5</string>
-				<string>282A56A2196045D000FAD7F5</string>
-				<string>286BEE9A1961C63900227DA1</string>
-				<string>282A56A51960463400FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>282A56651960446E00FAD7F5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>282A566E1960446E00FAD7F5</string>
-				<string>282A56701960446E00FAD7F5</string>
-				<string>282A566C1960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>282A56661960446E00FAD7F5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>282A56841960446E00FAD7F5</string>
-				<string>282A56761960446E00FAD7F5</string>
-				<string>282A567F1960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>282A56671960446E00FAD7F5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>282A569A1960446E00FAD7F5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>282A56641960446E00FAD7F5</string>
-				<string>282A56651960446E00FAD7F5</string>
-				<string>282A56661960446E00FAD7F5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TRZSlideAndFadeTransition</string>
-			<key>productName</key>
-			<string>TRZSlideAndFadeAnimator</string>
-			<key>productReference</key>
-			<string>282A56681960446E00FAD7F5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>282A56681960446E00FAD7F5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeTransition.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>282A56691960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A56681960446E00FAD7F5</string>
-				<string>282A56891960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A566A1960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A566B1960446E00FAD7F5</string>
-				<string>282A566D1960446E00FAD7F5</string>
-				<string>282A566F1960446E00FAD7F5</string>
-				<string>282A568A1960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A566B1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>282A566C1960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A566B1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A566D1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>282A566E1960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A566D1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A566F1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>282A56701960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A566F1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56711960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A567A1960446E00FAD7F5</string>
-				<string>282A567B1960446E00FAD7F5</string>
-				<string>282A567D1960446E00FAD7F5</string>
-				<string>282A56801960446E00FAD7F5</string>
-				<string>282A56811960446E00FAD7F5</string>
-				<string>282A56A0196045D000FAD7F5</string>
-				<string>282A56A1196045D000FAD7F5</string>
-				<string>282A56831960446E00FAD7F5</string>
-				<string>282A56721960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeTransitionDemo</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56721960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A56731960446E00FAD7F5</string>
-				<string>282A56741960446E00FAD7F5</string>
-				<string>282A56771960446E00FAD7F5</string>
-				<string>282A56791960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56731960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeTransition-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56741960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A56751960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56751960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56761960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56741960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56771960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>main.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56781960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56771960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56791960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeTransition-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A567A1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TRzAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A567B1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TRzAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A567C1960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A567B1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A567D1960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A567E1960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A567E1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A567F1960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A567D1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56801960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TRzViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56811960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TRzViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56821960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56811960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56831960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56841960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56831960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56851960446E00FAD7F5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>282A56971960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>282A56861960446E00FAD7F5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>282A568B1960446E00FAD7F5</string>
-				<string>282A568D1960446E00FAD7F5</string>
-				<string>282A568C1960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>282A56871960446E00FAD7F5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>282A56951960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>282A56881960446E00FAD7F5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>282A569D1960446E00FAD7F5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>282A56851960446E00FAD7F5</string>
-				<string>282A56861960446E00FAD7F5</string>
-				<string>282A56871960446E00FAD7F5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>282A568F1960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>TRZSlideAndFadeTransitionTests</string>
-			<key>productName</key>
-			<string>TRZSlideAndFadeAnimatorTests</string>
-			<key>productReference</key>
-			<string>282A56891960446E00FAD7F5</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>282A56891960446E00FAD7F5</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeTransitionTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>282A568A1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>282A568B1960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A568A1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A568C1960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A566B1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A568D1960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A566F1960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A568E1960446E00FAD7F5</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>282A56601960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>282A56671960446E00FAD7F5</string>
-			<key>remoteInfo</key>
-			<string>TRZSlideAndFadeAnimator</string>
-		</dict>
-		<key>282A568F1960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>282A56671960446E00FAD7F5</string>
-			<key>targetProxy</key>
-			<string>282A568E1960446E00FAD7F5</string>
-		</dict>
-		<key>282A56901960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A56961960446E00FAD7F5</string>
-				<string>282A56911960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TRZSlideAndFadeTransitionTests</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeTransitionTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56911960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A56921960446E00FAD7F5</string>
-				<string>282A56931960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56921960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeTransitionTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56931960446E00FAD7F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>282A56941960446E00FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56941960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56951960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56931960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56961960446E00FAD7F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TRZSlideAndFadeAnimatorTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56971960446E00FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56961960446E00FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56981960446E00FAD7F5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>282A56991960446E00FAD7F5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>282A569A1960446E00FAD7F5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>282A569B1960446E00FAD7F5</string>
-				<string>282A569C1960446E00FAD7F5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>282A569B1960446E00FAD7F5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>TRZSlideAndFadeTransition</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>282A569C1960446E00FAD7F5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>TRZSlideAndFadeTransition</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>282A569D1960446E00FAD7F5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>282A569E1960446E00FAD7F5</string>
-				<string>282A569F1960446E00FAD7F5</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>282A569E1960446E00FAD7F5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TRZSlideAndFadeAnimator.app/TRZSlideAndFadeAnimator</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>TRZSlideAndFadeTransitionTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>TRZSlideAndFadeTransitionTests</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>282A569F1960446E00FAD7F5</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/TRZSlideAndFadeAnimator.app/TRZSlideAndFadeAnimator</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>TRZSlideAndFadeTransitionTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>TRZSlideAndFadeTransitionTests</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>282A56A0196045D000FAD7F5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TRzModalViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56A1196045D000FAD7F5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TRzModalViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56A2196045D000FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56A1196045D000FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>282A56A31960463400FAD7F5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TRzSlideAndFadeInteractiveTransition.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56A41960463400FAD7F5</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TRzSlideAndFadeInteractiveTransition.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>282A56A51960463400FAD7F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>282A56A41960463400FAD7F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28690E19196C36F5000E19EF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>286BEE981961C63900227DA1</string>
-				<string>286BEE991961C63900227DA1</string>
-				<string>282A56A31960463400FAD7F5</string>
-				<string>282A56A41960463400FAD7F5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>src</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>286BEE981961C63900227DA1</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>TRzSlideAndFadeAnimatedTransiton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>286BEE991961C63900227DA1</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>TRzSlideAndFadeAnimatedTransiton.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>286BEE9A1961C63900227DA1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>286BEE991961C63900227DA1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>282A56601960446E00FAD7F5</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282A566C1960446E00FAD7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566B1960446E00FAD7F5 /* Foundation.framework */; };
+		282A566E1960446E00FAD7F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566D1960446E00FAD7F5 /* CoreGraphics.framework */; };
+		282A56701960446E00FAD7F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566F1960446E00FAD7F5 /* UIKit.framework */; };
+		282A56761960446E00FAD7F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282A56741960446E00FAD7F5 /* InfoPlist.strings */; };
+		282A56781960446E00FAD7F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56771960446E00FAD7F5 /* main.m */; };
+		282A567C1960446E00FAD7F5 /* TRZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A567B1960446E00FAD7F5 /* TRZAppDelegate.m */; };
+		282A567F1960446E00FAD7F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282A567D1960446E00FAD7F5 /* Main.storyboard */; };
+		282A56821960446E00FAD7F5 /* TRZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56811960446E00FAD7F5 /* TRZViewController.m */; };
+		282A56841960446E00FAD7F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282A56831960446E00FAD7F5 /* Images.xcassets */; };
+		282A568B1960446E00FAD7F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A568A1960446E00FAD7F5 /* XCTest.framework */; };
+		282A568C1960446E00FAD7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566B1960446E00FAD7F5 /* Foundation.framework */; };
+		282A568D1960446E00FAD7F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282A566F1960446E00FAD7F5 /* UIKit.framework */; };
+		282A56951960446E00FAD7F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 282A56931960446E00FAD7F5 /* InfoPlist.strings */; };
+		282A56971960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */; };
+		282A56A2196045D000FAD7F5 /* TRZModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56A1196045D000FAD7F5 /* TRZModalViewController.m */; };
+		282A56A51960463400FAD7F5 /* TRZSlideAndFadeInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A56A41960463400FAD7F5 /* TRZSlideAndFadeInteractiveTransition.m */; };
+		286BEE9A1961C63900227DA1 /* TRZSlideAndFadeAnimatedTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 286BEE991961C63900227DA1 /* TRZSlideAndFadeAnimatedTransiton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		282A568E1960446E00FAD7F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 282A56601960446E00FAD7F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 282A56671960446E00FAD7F5;
+			remoteInfo = TRZSlideAndFadeAnimator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		282A56681960446E00FAD7F5 /* TRZSlideAndFadeTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZSlideAndFadeTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		282A566B1960446E00FAD7F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		282A566D1960446E00FAD7F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		282A566F1960446E00FAD7F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282A56731960446E00FAD7F5 /* TRZSlideAndFadeTransition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRZSlideAndFadeTransition-Info.plist"; sourceTree = "<group>"; };
+		282A56751960446E00FAD7F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282A56771960446E00FAD7F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282A56791960446E00FAD7F5 /* TRZSlideAndFadeTransition-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TRZSlideAndFadeTransition-Prefix.pch"; sourceTree = "<group>"; };
+		282A567A1960446E00FAD7F5 /* TRZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRZAppDelegate.h; sourceTree = "<group>"; };
+		282A567B1960446E00FAD7F5 /* TRZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZAppDelegate.m; sourceTree = "<group>"; };
+		282A567E1960446E00FAD7F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		282A56801960446E00FAD7F5 /* TRZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRZViewController.h; sourceTree = "<group>"; };
+		282A56811960446E00FAD7F5 /* TRZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZViewController.m; sourceTree = "<group>"; };
+		282A56831960446E00FAD7F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		282A56891960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZSlideAndFadeTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		282A568A1960446E00FAD7F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		282A56921960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TRZSlideAndFadeTransitionTests-Info.plist"; sourceTree = "<group>"; };
+		282A56941960446E00FAD7F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZSlideAndFadeAnimatorTests.m; sourceTree = "<group>"; };
+		282A56A0196045D000FAD7F5 /* TRZModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZModalViewController.h; sourceTree = "<group>"; };
+		282A56A1196045D000FAD7F5 /* TRZModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZModalViewController.m; sourceTree = "<group>"; };
+		282A56A31960463400FAD7F5 /* TRZSlideAndFadeInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZSlideAndFadeInteractiveTransition.h; sourceTree = "<group>"; };
+		282A56A41960463400FAD7F5 /* TRZSlideAndFadeInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZSlideAndFadeInteractiveTransition.m; sourceTree = "<group>"; };
+		286BEE981961C63900227DA1 /* TRZSlideAndFadeAnimatedTransiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZSlideAndFadeAnimatedTransiton.h; sourceTree = "<group>"; };
+		286BEE991961C63900227DA1 /* TRZSlideAndFadeAnimatedTransiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZSlideAndFadeAnimatedTransiton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		282A56651960446E00FAD7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A566E1960446E00FAD7F5 /* CoreGraphics.framework in Frameworks */,
+				282A56701960446E00FAD7F5 /* UIKit.framework in Frameworks */,
+				282A566C1960446E00FAD7F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A56861960446E00FAD7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A568B1960446E00FAD7F5 /* XCTest.framework in Frameworks */,
+				282A568D1960446E00FAD7F5 /* UIKit.framework in Frameworks */,
+				282A568C1960446E00FAD7F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		282A565F1960446E00FAD7F5 = {
+			isa = PBXGroup;
+			children = (
+				28690E19196C36F5000E19EF /* src */,
+				282A56711960446E00FAD7F5 /* TRZSlideAndFadeTransitionDemo */,
+				282A56901960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests */,
+				282A566A1960446E00FAD7F5 /* Frameworks */,
+				282A56691960446E00FAD7F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		282A56691960446E00FAD7F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				282A56681960446E00FAD7F5 /* TRZSlideAndFadeTransition.app */,
+				282A56891960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		282A566A1960446E00FAD7F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				282A566B1960446E00FAD7F5 /* Foundation.framework */,
+				282A566D1960446E00FAD7F5 /* CoreGraphics.framework */,
+				282A566F1960446E00FAD7F5 /* UIKit.framework */,
+				282A568A1960446E00FAD7F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		282A56711960446E00FAD7F5 /* TRZSlideAndFadeTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				282A567A1960446E00FAD7F5 /* TRZAppDelegate.h */,
+				282A567B1960446E00FAD7F5 /* TRZAppDelegate.m */,
+				282A567D1960446E00FAD7F5 /* Main.storyboard */,
+				282A56801960446E00FAD7F5 /* TRZViewController.h */,
+				282A56811960446E00FAD7F5 /* TRZViewController.m */,
+				282A56A0196045D000FAD7F5 /* TRZModalViewController.h */,
+				282A56A1196045D000FAD7F5 /* TRZModalViewController.m */,
+				282A56831960446E00FAD7F5 /* Images.xcassets */,
+				282A56721960446E00FAD7F5 /* Supporting Files */,
+			);
+			path = TRZSlideAndFadeTransitionDemo;
+			sourceTree = "<group>";
+		};
+		282A56721960446E00FAD7F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282A56731960446E00FAD7F5 /* TRZSlideAndFadeTransition-Info.plist */,
+				282A56741960446E00FAD7F5 /* InfoPlist.strings */,
+				282A56771960446E00FAD7F5 /* main.m */,
+				282A56791960446E00FAD7F5 /* TRZSlideAndFadeTransition-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282A56901960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				282A56961960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m */,
+				282A56911960446E00FAD7F5 /* Supporting Files */,
+			);
+			path = TRZSlideAndFadeTransitionTests;
+			sourceTree = "<group>";
+		};
+		282A56911960446E00FAD7F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				282A56921960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests-Info.plist */,
+				282A56931960446E00FAD7F5 /* InfoPlist.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28690E19196C36F5000E19EF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				286BEE981961C63900227DA1 /* TRZSlideAndFadeAnimatedTransiton.h */,
+				286BEE991961C63900227DA1 /* TRZSlideAndFadeAnimatedTransiton.m */,
+				282A56A31960463400FAD7F5 /* TRZSlideAndFadeInteractiveTransition.h */,
+				282A56A41960463400FAD7F5 /* TRZSlideAndFadeInteractiveTransition.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		282A56671960446E00FAD7F5 /* TRZSlideAndFadeTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282A569A1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeTransition" */;
+			buildPhases = (
+				282A56641960446E00FAD7F5 /* Sources */,
+				282A56651960446E00FAD7F5 /* Frameworks */,
+				282A56661960446E00FAD7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRZSlideAndFadeTransition;
+			productName = TRZSlideAndFadeAnimator;
+			productReference = 282A56681960446E00FAD7F5 /* TRZSlideAndFadeTransition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		282A56881960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 282A569D1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeTransitionTests" */;
+			buildPhases = (
+				282A56851960446E00FAD7F5 /* Sources */,
+				282A56861960446E00FAD7F5 /* Frameworks */,
+				282A56871960446E00FAD7F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				282A568F1960446E00FAD7F5 /* PBXTargetDependency */,
+			);
+			name = TRZSlideAndFadeTransitionTests;
+			productName = TRZSlideAndFadeAnimatorTests;
+			productReference = 282A56891960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		282A56601960446E00FAD7F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TRZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = 86;
+				TargetAttributes = {
+					282A56881960446E00FAD7F5 = {
+						TestTargetID = 282A56671960446E00FAD7F5;
+					};
+				};
+			};
+			buildConfigurationList = 282A56631960446E00FAD7F5 /* Build configuration list for PBXProject "TRZSlideAndFadeTransition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 282A565F1960446E00FAD7F5;
+			productRefGroup = 282A56691960446E00FAD7F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				282A56671960446E00FAD7F5 /* TRZSlideAndFadeTransition */,
+				282A56881960446E00FAD7F5 /* TRZSlideAndFadeTransitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		282A56661960446E00FAD7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56841960446E00FAD7F5 /* Images.xcassets in Resources */,
+				282A56761960446E00FAD7F5 /* InfoPlist.strings in Resources */,
+				282A567F1960446E00FAD7F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A56871960446E00FAD7F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56951960446E00FAD7F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		282A56641960446E00FAD7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56781960446E00FAD7F5 /* main.m in Sources */,
+				282A567C1960446E00FAD7F5 /* TRZAppDelegate.m in Sources */,
+				282A56821960446E00FAD7F5 /* TRZViewController.m in Sources */,
+				282A56A2196045D000FAD7F5 /* TRZModalViewController.m in Sources */,
+				286BEE9A1961C63900227DA1 /* TRZSlideAndFadeAnimatedTransiton.m in Sources */,
+				282A56A51960463400FAD7F5 /* TRZSlideAndFadeInteractiveTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		282A56851960446E00FAD7F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A56971960446E00FAD7F5 /* TRZSlideAndFadeAnimatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		282A568F1960446E00FAD7F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 282A56671960446E00FAD7F5 /* TRZSlideAndFadeTransition */;
+			targetProxy = 282A568E1960446E00FAD7F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		282A56741960446E00FAD7F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A56751960446E00FAD7F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		282A567D1960446E00FAD7F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A567E1960446E00FAD7F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		282A56931960446E00FAD7F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				282A56941960446E00FAD7F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		282A56981960446E00FAD7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		282A56991960446E00FAD7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		282A569B1960446E00FAD7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Prefix.pch";
+				INFOPLIST_FILE = "TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Info.plist";
+				PRODUCT_NAME = TRZSlideAndFadeTransition;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		282A569C1960446E00FAD7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Prefix.pch";
+				INFOPLIST_FILE = "TRZSlideAndFadeTransitionDemo/Supporting Files/TRZSlideAndFadeTransition-Info.plist";
+				PRODUCT_NAME = TRZSlideAndFadeTransition;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		282A569E1960446E00FAD7F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRZSlideAndFadeAnimator.app/TRZSlideAndFadeAnimator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TRZSlideAndFadeTransitionTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist";
+				PRODUCT_NAME = TRZSlideAndFadeTransitionTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		282A569F1960446E00FAD7F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TRZSlideAndFadeAnimator.app/TRZSlideAndFadeAnimator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TRZSlideAndFadeAnimator/TRZSlideAndFadeAnimator-Prefix.pch";
+				INFOPLIST_FILE = "TRZSlideAndFadeTransitionTests/Supporting Files/TRZSlideAndFadeTransitionTests-Info.plist";
+				PRODUCT_NAME = TRZSlideAndFadeTransitionTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		282A56631960446E00FAD7F5 /* Build configuration list for PBXProject "TRZSlideAndFadeTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A56981960446E00FAD7F5 /* Debug */,
+				282A56991960446E00FAD7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282A569A1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A569B1960446E00FAD7F5 /* Debug */,
+				282A569C1960446E00FAD7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		282A569D1960446E00FAD7F5 /* Build configuration list for PBXNativeTarget "TRZSlideAndFadeTransitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				282A569E1960446E00FAD7F5 /* Debug */,
+				282A569F1960446E00FAD7F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 282A56601960446E00FAD7F5 /* Project object */;
+}

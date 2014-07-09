@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TRzViewController : UIViewController
+@interface TRZViewController : UIViewController
 
 @end

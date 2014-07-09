@@ -8,17 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol TRzSlideAndFadeInteractiveTransitionDelegate;
+@protocol TRZSlideAndFadeInteractiveTransitionDelegate;
 
-@interface TRzSlideAndFadeInteractiveTransition : UIPercentDrivenInteractiveTransition
+@interface TRZSlideAndFadeInteractiveTransition : UIPercentDrivenInteractiveTransition
 
-@property (nonatomic, weak) id <TRzSlideAndFadeInteractiveTransitionDelegate> delegate;
+@property (nonatomic, weak) id <TRZSlideAndFadeInteractiveTransitionDelegate> delegate;
 @property (nonatomic) UIView *view;
 @property (nonatomic, getter = isInteractive) BOOL interactive;
 
 @end
 
-@protocol TRzSlideAndFadeInteractiveTransitionDelegate <NSObject>
+@protocol TRZSlideAndFadeInteractiveTransitionDelegate <NSObject>
 
 - (void)interactiveTransition:(id <UIViewControllerInteractiveTransitioning>)transition interactionBeganAtPoint:(CGPoint)point opposite:(BOOL)opposite;
 

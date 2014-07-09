@@ -8,11 +8,11 @@
 
 #import "TRzModalViewController.h"
 
-@interface TRzModalViewController ()
+@interface TRZModalViewController ()
 
 @end
 
-@implementation TRzModalViewController
+@implementation TRZModalViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

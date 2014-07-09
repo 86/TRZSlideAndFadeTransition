@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-#import "TRzAppDelegate.h"
+#import "TRZAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TRzAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([TRZAppDelegate class]));
     }
 }

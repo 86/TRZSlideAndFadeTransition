@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TRzAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TRZAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

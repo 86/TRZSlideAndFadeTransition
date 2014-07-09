@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 86. All rights reserved.
 //
 
-#import "TRzSlideAndFadeInteractiveTransition.h"
+#import "TRZSlideAndFadeInteractiveTransition.h"
 
 
-@implementation TRzSlideAndFadeInteractiveTransition
+@implementation TRZSlideAndFadeInteractiveTransition
 
     CGPoint stPoint;
     bool opposite;
