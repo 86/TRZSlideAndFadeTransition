@@ -1,5 +1,5 @@
 //
-//  TRzSlideAndFadeAnimatedTransiton.h
+//  TRZSlideAndFadeAnimatedTransiton.h
 //  TRZSlideAndFadeTransition
 //
 //  Created by yam on 2014/07/01.
@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TRzSlideAndFadeAnimatedTransiton : NSObject <UIViewControllerAnimatedTransitioning>
+typedef NS_ENUM(NSInteger, TRZInteractionDirection) {
+    TRZInteractionDirectionRight,
+    TRZInteractionDirectionLeft
+};
+
+@interface TRZSlideAndFadeAnimatedTransiton : NSObject <UIViewControllerAnimatedTransitioning>
 
 @property (nonatomic) BOOL dismiss;
-@property (nonatomic) BOOL opposite;
+@property (nonatomic) TRZInteractionDirection interactionDirection;
 
 @end

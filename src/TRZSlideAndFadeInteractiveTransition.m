@@ -11,8 +11,7 @@
 
 @implementation TRZSlideAndFadeInteractiveTransition
 
-    CGPoint stPoint;
-    bool opposite;
+    BOOL directionLeft;
 
 - (void)setView:(UIView *)view
 {
@@ -23,51 +22,51 @@
 
 
 - (void)handlePan:(UIPanGestureRecognizer *)recognizer {
+//    CGPoint point = [recognizer locationInView:self.view];
+    CGPoint translation = [recognizer translationInView:self.view];
+    CGRect viewRect = self.view.bounds;
+    CGFloat percent = translation.x / CGRectGetWidth(viewRect);
+    CGPoint velocity = [recognizer velocityInView:self.view];
+    
     switch (recognizer.state) {
         case UIGestureRecognizerStateBegan:
-        {
-            NSLog(@"UIGestureRecognizerStateBegan");
-//            self.interactive = YES;
-//            CGPoint point = [recognizer locationInView:self.view];
-            opposite = NO;
-            stPoint = [recognizer locationInView:self.view];
-            NSLog(@"stPoint:%f, %f",stPoint.x, stPoint.y);
-//            [self.delegate interactiveTransition:self interactionBeganAtPoint:point];
+//            NSLog(@"UIGestureRecognizerStateBegan");
+            directionLeft = NO;
+//            NSLog(@"stPoint:%f, %f",point.x, point.y);
             break;
-        }
         case UIGestureRecognizerStateChanged:
-        {
 //            NSLog(@"UIGestureRecognizerStateChanged");
-            CGPoint translation = [recognizer translationInView:self.view];
 //            NSLog(@"tlPoint:%f, %f",translation.x, translation.y);
             if (!self.interactive) {
                 if (translation.x < 0) {
-                    NSLog(@"tlPoint:%f, %f",translation.x, translation.y);
-                    NSLog(@"opposite:YES!");
-                    opposite = YES;
+                    directionLeft = YES;
+//                    NSLog(@"directionLeft");
                 }
                 self.interactive = YES;
-                [self.delegate interactiveTransition:self interactionBeganAtPoint:stPoint opposite:opposite];
+                [self.delegate startInteraction:self direction:directionLeft];
             } else {
-                CGRect viewRect = self.view.bounds;
-                CGFloat percent = translation.x / CGRectGetWidth(viewRect);
+                if (!directionLeft) {
+                    if (translation.x > 0) {
+                        [self updateInteractiveTransition:fabsf(percent)];
+                    } else {
+                        [self updateInteractiveTransition:0.0];
+                    }
+                } else {
+                    if (translation.x < 0) {
+                        [self updateInteractiveTransition:fabsf(percent)];
+                    } else {
+                        [self updateInteractiveTransition:0.0];
+                    }
+                }
 //                NSLog(@"updateInteractiveTransition:percent:%f",percent);
-//                NSLog(@"updateInteractiveTransition:fabs(percent):%f",fabsf(percent));
-                [self updateInteractiveTransition:fabsf(percent)];
             }
             break;
-        }
         case UIGestureRecognizerStateEnded:
-        {
-            NSLog(@"UIGestureRecognizerStateEnded");
-            CGPoint translation = [recognizer translationInView:self.view];
-            CGRect viewRect = self.view.bounds;
-            CGFloat percent = translation.x / CGRectGetWidth(viewRect);
-            CGPoint velocity = [recognizer velocityInView:self.view];
+//            NSLog(@"UIGestureRecognizerStateEnded");
             if (fabs(percent) < 0.3) {
                 [self cancelInteractiveTransition];
             } else {
-                if (!opposite) {
+                if (!directionLeft) {
                     if (velocity.x > 0) {
                         [self finishInteractiveTransition];
                     } else {
@@ -83,12 +82,12 @@
             }
             self.interactive = NO;
             break;
-        }
         case UIGestureRecognizerStateCancelled:
+            [self cancelInteractiveTransition];
+            self.interactive = NO;
         default:
             break;
     }
 }
-
 
 @end

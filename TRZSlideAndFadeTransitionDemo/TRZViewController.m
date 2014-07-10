@@ -1,24 +1,24 @@
 //
-//  TRzViewController.m
+//  TRZViewController.m
 //  TRZSlideAndFadeTransition
 //
 //  Created by yam on 2014/06/29.
 //  Copyright (c) 2014年 86. All rights reserved.
 //
 
-#import "TRzViewController.h"
-#import "TRzSlideAndFadeInteractiveTransition.h"
-#import "TRzSlideAndFadeAnimatedTransiton.h"
-#import "TRzModalViewController.h"
+#import "TRZViewController.h"
+#import "TRZSlideAndFadeInteractiveTransition.h"
+#import "TRZSlideAndFadeAnimatedTransiton.h"
+#import "TRZModalViewController.h"
 
-@interface TRzViewController () <UIViewControllerTransitioningDelegate, TRzSlideAndFadeInteractiveTransitionDelegate >
+@interface TRZViewController () <UIViewControllerTransitioningDelegate, TRZSlideAndFadeInteractiveTransitionDelegate >
 
-@property (nonatomic) TRzSlideAndFadeInteractiveTransition *interactiveTransition;
-@property (nonatomic) TRzSlideAndFadeAnimatedTransiton *animatedTransition;
+@property (nonatomic) TRZSlideAndFadeInteractiveTransition *interactiveTransition;
+@property (nonatomic) TRZSlideAndFadeAnimatedTransiton *animatedTransition;
 
 @end
 
-@implementation TRzViewController
+@implementation TRZViewController
 
 - (void)viewDidLoad
 {
@@ -42,7 +42,7 @@
 }
 
 -(id <UIViewControllerAnimatedTransitioning>)animationControllerForDismissedController:(UIViewController *)dismissed {
-    TRzSlideAndFadeAnimatedTransiton *animatedTransition = [[TRzSlideAndFadeAnimatedTransiton alloc] init];
+    TRZSlideAndFadeAnimatedTransiton *animatedTransition = [[TRZSlideAndFadeAnimatedTransiton alloc] init];
     animatedTransition.dismiss = YES;
     self.animatedTransition = animatedTransition;
     return self.animatedTransition;
@@ -57,7 +57,7 @@
 }
 
 - (id <UIViewControllerInteractiveTransitioning>)interactionControllerForDismissal:(id<UIViewControllerAnimatedTransitioning>)animator {
-    if (self.interactiveTransition != nil && self.interactiveTransition.isInteractive) {
+    if (self.interactiveTransition != nil && self.interactiveTransition.interactive) {
         return self.interactiveTransition;
     }
     return nil;
@@ -69,12 +69,12 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"openView"]) {
 //        NSLog(@"prepareForSegue");
-        TRzModalViewController *controller = segue.destinationViewController;
+        TRZModalViewController *controller = segue.destinationViewController;
         
         controller.transitioningDelegate = self;
         controller.modalPresentationStyle = UIModalPresentationFullScreen;
         
-        self.interactiveTransition = [[TRzSlideAndFadeInteractiveTransition alloc] init];
+        self.interactiveTransition = [[TRZSlideAndFadeInteractiveTransition alloc] init];
         self.interactiveTransition.view = controller.view;
         self.interactiveTransition.delegate = self;
     }
@@ -83,11 +83,9 @@
 
 #pragma mark - TRzSlideAndFadeInteractiveTransitionDelegate
 
-- (void)interactiveTransition:(id<UIViewControllerInteractiveTransitioning>)transition interactionBeganAtPoint:(CGPoint)point opposite:(BOOL)opposite {
-//    NSLog(@"interactiveTransition:interactionBeganAtPoint:opposite:%d",opposite);
+- (void)startInteraction:(id<UIViewControllerInteractiveTransitioning>)transition direction:(BOOL)direction {
     [self dismissViewControllerAnimated:YES completion:nil];
-    self.animatedTransition.opposite = opposite;
+    self.animatedTransition.interactionDirection = direction;
 }
-    
-    
+
 @end

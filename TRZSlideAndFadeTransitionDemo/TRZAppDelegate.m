@@ -1,14 +1,14 @@
 //
-//  TRzAppDelegate.m
+//  TRZAppDelegate.m
 //  TRZSlideAndFadeTransition
 //
 //  Created by yam on 2014/06/29.
 //  Copyright (c) 2014年 86. All rights reserved.
 //
 
-#import "TRzAppDelegate.h"
+#import "TRZAppDelegate.h"
 
-@implementation TRzAppDelegate
+@implementation TRZAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
